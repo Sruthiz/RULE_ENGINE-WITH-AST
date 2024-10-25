@@ -40,8 +40,9 @@ Installtion Steps :
 6. Run the Server Start the server:
    ```bash
     node server.js
-Your server should be running on http://localhost:8080.
-7. Open the Application Open your web browser and visit:
+  Your server should be running on http://localhost:8080.
+  
+ 7. Open the Application Open your web browser and visit:
   ```bash
    http://localhost:8080
 
