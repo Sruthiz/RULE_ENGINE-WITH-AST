@@ -43,10 +43,10 @@ Installtion Steps :
   Your server should be running on http://localhost:8080.
   
  7. Open the Application Open your web browser and visit:
-  ```bash
-   http://localhost:8080
+    ```bash
+    http://localhost:8080
 
-
+![Screenshot (168)](https://github.com/user-attachments/assets/16fef99c-59ca-44f5-8a38-31639b2d29b7)
 
 
 
