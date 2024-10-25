@@ -25,5 +25,6 @@ Installtion Steps :
 
  1. Open a terminal (or command prompt) in your project's root directory.
  2. Initialize Git:
+    ```bash
    git init
 
