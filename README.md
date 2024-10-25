@@ -45,7 +45,17 @@ Installtion Steps :
  7. Open the Application Open your web browser and visit:
     ```bash
     http://localhost:8080
-
+ 8 . Add all your project files to the staging area :
+    ```bash
+        git add .
+        
+ 9. Commit the changes:
+    ```bash
+   git commit -m "Initial commit"
+   
+10. Push your local repository to GitHub
+    ```bash
+    git push -u origin master
 
 ![Screenshot (168)](https://github.com/user-attachments/assets/16fef99c-59ca-44f5-8a38-31639b2d29b7)
 
