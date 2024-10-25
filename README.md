@@ -25,10 +25,24 @@ Installtion Steps :
 
  1. Open a terminal (or command prompt) in your project's root directory.
  2. Initialize Git:
-    ```bash git init
+    ```bash
+     git init
     
- 3. Clone the Repository
-   ```bash git clone https://github.com/your-username/rule-engine-project.git
+3. Clone the Repository
+   ```bash
+   git clone https://github.com/your-username/rule-engine-project.git
+4. Install Dependencies Install the required packages using npm:
+   ```bash
+    npm install
+5. Setup MongoDB Ensure MongoDB is running on your local machine or connect to a remote MongoDB instance. Modify the connection URL in server.js if needed:
+   ```bash
+    const MONGO_URL = "mongodb://127.0.0.1:27017/rule_engine_data";
+6. Run the Server Start the server:
+   ```bash
+    node server.js
+
+
+
 
 
 
