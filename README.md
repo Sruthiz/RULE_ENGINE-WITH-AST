@@ -60,10 +60,10 @@ Installtion Steps :
 ![Screenshot (168)](https://github.com/user-attachments/assets/16fef99c-59ca-44f5-8a38-31639b2d29b7)
 
 Technologies Used : 
--> Node.js - Server-side runtime environment.
--> Express.js - Web framework for Node.js.
--> MongoDB - NoSQL database for storing rules.
--> HTML/CSS/JavaScript - Front-end.
+1. Node.js - Server-side runtime environment.
+2. Express.js - Web framework for Node.js.
+3. MongoDB - NoSQL database for storing rules.
+4. HTML/CSS/JavaScript - Front-end.
 
 
 
