@@ -51,7 +51,7 @@ Installtion Steps :
         
  9. Commit the changes:
     ```bash
-   git commit -m "Initial commit"
+    git commit -m "Initial commit"
    
 10. Push your local repository to GitHub
     ```bash
