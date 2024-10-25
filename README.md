@@ -25,6 +25,10 @@ Installtion Steps :
 
  1. Open a terminal (or command prompt) in your project's root directory.
  2. Initialize Git:
-    ```bash
-   git init
+    ```bash git init
+ 3.Clone the Repository
+   ```bash git clone https://github.com/your-username/rule-engine-project.git
+4.Navigate to the project directory
+   ```bash cd  rule-engine-project
+   
 
