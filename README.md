@@ -21,5 +21,9 @@ Rule Evaluation :
 ![Screenshot (158)](https://github.com/user-attachments/assets/615da047-8c0e-4025-a801-c9633fa48b8b)
 
 
+Installtion Steps :
 
+ 1. Open a terminal (or command prompt) in your project's root directory.
+ 2. Initialize Git:
+   git init
 
