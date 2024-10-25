@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rule Engine</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Rule Engine</h1>
+
+    <section>
+      <h2>Create Rule</h2>
+      <form id="form-create-rule">
+        <div>
+          <label for="input-rule-name">Rule Name:</label>
+          <input type="text" id="input-rule-name" name="ruleName" required>
+        </div>
+        <div>
+          <label for="input-rule-string">Rule:</label>
+          <input type="text" id="input-rule-string" name="ruleString" required>
+        </div>
+        <button type="submit">Create Rule</button>
+      </form>
+      <pre id="output-create-rule"></pre>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Combine Rules</h2>
+      <form id="form-combine-rules">
+        <div id="rule-inputs-container">
+          <div class="rule-group">
+            <label for="input-combine-rule-1">Rule 1:</label>
+            <input type="text" id="input-combine-rule-1" name="rule1" required>
+            <label for="select-operator-1">Operator:</label>
+            <select id="select-operator-1" name="operator1">
+              <option value="AND">AND</option>
+              <option value="OR">OR</option>
+            </select>
+          </div>
+        </div>
+        <button type="button" id="btn-add-rule">Add Another Rule</button>
+        <button type="submit">Combine Rules</button>
+      </form>
+      <pre id="output-combine-rules"></pre>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Evaluate Rule</h2>
+      <form id="form-evaluate-rule">
+        <div>
+          <label for="input-evaluate-rule-name">Rule Name:</label>
+          <input type="text" id="input-evaluate-rule-name" name="ruleName" required>
+        </div>
+        <div>
+          <label for="textarea-data-json">Data JSON:</label>
+          <textarea id="textarea-data-json" name="data" required></textarea>
+        </div>
+        <button type="submit">Evaluate Rule</button>
+      </form>
+      <pre id="output-evaluate-rule"></pre>
+    </section>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
